@@ -1,9 +1,10 @@
 import "./App.css"
+import ErrorExample from "./useState/ErrorExample"
 
 function App() {
   return (
     <section>
-      <h1>Here is where you will insert your components</h1>
+      <ErrorExample />
     </section>
   )
 }
