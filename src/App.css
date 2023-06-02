@@ -5,3 +5,19 @@
   text-align: center;
 }
 
+section{
+  padding-bottom: 100px;
+}
+
+p{
+  padding-top: 25px;
+}
+
+h2 {
+  color: rgb(201, 98, 2);
+}
+
+button{
+  padding: 10px 20px;
+}
+
