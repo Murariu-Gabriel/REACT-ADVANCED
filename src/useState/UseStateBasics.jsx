@@ -43,6 +43,15 @@ const plusOne = () => {
         <br /><br />
         Re-render is also triggered when a parent element re-renders, even if state is not updated or props changed. Here I suppose if a parent element re-render then all elements wil re-render, it just makes sense.
       </p>
+
+      <h2>General Rules of Hooks</h2>
+      <p>- They start with use (even the custom ones) 
+        <br />
+        - The component must be uppercase <br />
+        - Hooks are invoked inside the component body or inside functions
+        - Hooks must must must NOT BE CALLED CONDITIONALLY <br />
+        - Set functions don't update the state immediately
+        </p>
     </section>
   )
 }
