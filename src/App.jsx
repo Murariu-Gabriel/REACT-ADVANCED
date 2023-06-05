@@ -2,6 +2,7 @@ import "./App.css"
 import ErrorExample from "./useState/ErrorExample"
 import UseStateBasics from "./useState/UseStateBasics"
 import UseStateWithArray from "./useState/UseStateWithArray"
+import UseStateWithObject from "./useState/UseStateWithObject"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <ErrorExample />
       <UseStateBasics />
       <UseStateWithArray />
+      <UseStateWithObject/>
     </section>
   )
 }
