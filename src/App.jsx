@@ -1,5 +1,6 @@
 import "./App.css"
 import ErrorExample from "./useState/ErrorExample"
+import SetFunctionGotcha from "./useState/SetFunctionGotcha"
 import UseStateBasics from "./useState/UseStateBasics"
 import UseStateWithArray from "./useState/UseStateWithArray"
 import UseStateWithObject from "./useState/UseStateWithObject"
@@ -11,6 +12,7 @@ function App() {
       <UseStateBasics />
       <UseStateWithArray />
       <UseStateWithObject/>
+      <SetFunctionGotcha/>
     </section>
   )
 }
