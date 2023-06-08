@@ -1,18 +1,18 @@
 import { useState } from "react"
-import {data} from "../data"
+import { data } from "../../data"
 
 const UseStateWithArray = () => {
-    const [people, setPeople] = useState(data)
-    console.log(people)
+  const [people, setPeople] = useState(data)
+  console.log(people)
 
-    const removePerson = (id) => {
-        const newPeople = people.filter(person => person.id !== id)
-        setPeople(newPeople)
-    }
+  const removePerson = (id) => {
+    const newPeople = people.filter((person) => person.id !== id)
+    setPeople(newPeople)
+  }
 
-    const removePeople = () => {
-        setPeople([])
-    }
+  const removePeople = () => {
+    setPeople([])
+  }
   return (
     <section>
       <h2>UseState with Arrays</h2>
