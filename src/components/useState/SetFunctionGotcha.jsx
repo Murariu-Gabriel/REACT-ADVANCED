@@ -27,7 +27,7 @@ const SetFunctionGotcha = () => {
       })
     }, 3000)
   }
-  console.log(count)
+  // console.log(count)
 
   return (
     <section>

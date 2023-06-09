@@ -3,7 +3,7 @@ import { data } from "../../data"
 
 const UseStateWithArray = () => {
   const [people, setPeople] = useState(data)
-  console.log(people)
+  // console.log(people)
 
   const removePerson = (id) => {
     const newPeople = people.filter((person) => person.id !== id)
