@@ -8,17 +8,17 @@ const UseEffectBasics = () => {
     console.log("hi")
   }
 
-  saySomething()
+  // saySomething()
 
-  useEffect(() => {
-    console.log(
-      "hi from use State, that renders each time useState is triggered"
-    )
-  })
+  // useEffect(() => {
+  //   console.log(
+  //     "hi from use State, that renders each time useState is triggered"
+  //   )
+  // })
 
-  useEffect(() => {
-    console.log("hi from use State")
-  }, [])
+  // useEffect(() => {
+  //   console.log("hi from use State")
+  // }, [])
   return (
     <section>
       <h2>Use Effect Basics</h2>

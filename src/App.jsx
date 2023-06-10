@@ -1,4 +1,5 @@
 import "./App.css"
+import MultipleEffects from "./components/useEffect/MultipleEffects"
 import UseEffectBasics from "./components/useEffect/UseEffectBasics"
 import ErrorExample from "./components/useState/ErrorExample"
 import InfiniteStateLoop from "./components/useState/InfiniteStateLoop"
@@ -16,7 +17,8 @@ function App() {
       <UseStateWithObject />
       <SetFunctionGotcha />
       <InfiniteStateLoop />
-      <UseEffectBasics/>
+      <UseEffectBasics />
+      <MultipleEffects />
     </section>
   )
 }
