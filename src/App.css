@@ -21,3 +21,28 @@ button{
   padding: 10px 20px;
 }
 
+.data-container{
+  margin: 0 auto;
+  max-width: 1120px;
+  width: 80vw;
+}
+
+.fetched-Users{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.user{
+  list-style: none;
+  padding: 0;
+}
+
+.user p {
+  padding: 0;
+}
+
+.user img {
+  width: 100px;
+}

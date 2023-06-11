@@ -1,4 +1,5 @@
 import "./App.css"
+import FetchData from "./components/useEffect/fetching-data/FetchData"
 import MultipleEffects from "./components/useEffect/MultipleEffects"
 import UseEffectBasics from "./components/useEffect/UseEffectBasics"
 import ErrorExample from "./components/useState/ErrorExample"
@@ -19,6 +20,7 @@ function App() {
       <InfiniteStateLoop />
       <UseEffectBasics />
       <MultipleEffects />
+      <FetchData />
     </section>
   )
 }
