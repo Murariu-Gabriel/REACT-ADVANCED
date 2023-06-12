@@ -19,7 +19,7 @@ const FetchData = () => {
     fetchedData()
   }, [])
 
-  console.log(users)
+  // console.log(users)
   return (
     <section className="data-container">
       <h2>Fetching Data by Fetching github users</h2>

@@ -6,11 +6,11 @@ const [value, setValue] = useState(0)
 const [secondValue, setSecondValue] = useState(0)
 
 useEffect(() => {
-    console.log("I trigger when first value updates and initial render")
+    // console.log("I trigger when first value updates and initial render")
 }, [value])
 
 useEffect(() => {
-console.log("I trigger when second value updates and initial render")
+// console.log("I trigger when second value updates and initial render")
 }, [secondValue])
 
   return (
