@@ -1,4 +1,5 @@
 import "./App.css"
+import MultipleReturnFetchData from "./components/conditionalRendering/MultipleReturnFetchData"
 import MultipleReturns from "./components/conditionalRendering/MultipleReturns"
 import FetchData from "./components/useEffect/fetching-data/FetchData"
 import MultipleEffects from "./components/useEffect/MultipleEffects"
@@ -23,6 +24,7 @@ function App() {
       <MultipleEffects />
       <FetchData />
       <MultipleReturns />
+      <MultipleReturnFetchData/>
     </section>
   )
 }
