@@ -9,16 +9,33 @@ const MultipleReturnFetchData = () => {
 
     useEffect(() => {
         const getUser = async () => {
-            try {
-                const response = await fetch(url)
-                const data = await response.json()
-                console.log(data)
-                setUser(data)
-            } catch (error) {
-                setIsError(true)
-                console.log(error)
+          try {
+            const resp = await fetch(url);
+            console.log(resp);
+
+            if (!resp.ok) {
+              setIsError(true)
+              setIsLoading(false)
+              return
             }
-            setIsLoading(false)
+
+            const user = await resp.json()
+            setUser(user)
+          } catch(error){
+
+          }
+          setIsLoading(false)
+          //usual way of fetching data
+            // try {
+            //     const response = await fetch(url)
+            //     const data = await response.json()
+            //     console.log(data)
+            //     setUser(data)
+            // } catch (error) {
+            //     setIsError(true)
+            //     console.log(error)
+            // }
+            // setIsLoading(false)
         }
         getUser()
     }, [])
@@ -54,6 +71,8 @@ const MultipleReturnFetchData = () => {
         <h4>works at {user.company}</h4>
         <p>{user.bio}</p>
       </div>
+
+      <p>Another thing to keep in mind is that our fetch does not check for errors in the range of 400 or 500 if we don t check for it this component will be stuck on loading. The promise will resolve because it gets a response meaning id does not see the errors</p>
     </section>
   )
 }
