@@ -2,6 +2,7 @@ import "./App.css"
 import MultipleReturnFetchData from "./components/conditionalRendering/MultipleReturnFetchData"
 import MultipleReturns from "./components/conditionalRendering/MultipleReturns"
 import ShortCircuit from "./components/conditionalRendering/ShortCircuit"
+import ShortCircuitUsualUseCase from "./components/conditionalRendering/ShortCircuitUsualUseCase"
 import FetchData from "./components/useEffect/fetching-data/FetchData"
 import MultipleEffects from "./components/useEffect/MultipleEffects"
 import UseEffectBasics from "./components/useEffect/UseEffectBasics"
@@ -27,6 +28,7 @@ function App() {
       <MultipleReturns />
       <MultipleReturnFetchData />
       <ShortCircuit/>
+      <ShortCircuitUsualUseCase/>
     </section>
   )
 }
