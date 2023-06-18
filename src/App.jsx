@@ -3,6 +3,7 @@ import MultipleReturnFetchData from "./components/conditionalRendering/MultipleR
 import MultipleReturns from "./components/conditionalRendering/MultipleReturns"
 import ShortCircuit from "./components/conditionalRendering/ShortCircuit"
 import ShortCircuitUsualUseCase from "./components/conditionalRendering/ShortCircuitUsualUseCase"
+import ToggleChallenge from "./components/conditionalRendering/ToggleChallenge"
 import FetchData from "./components/useEffect/fetching-data/FetchData"
 import MultipleEffects from "./components/useEffect/MultipleEffects"
 import UseEffectBasics from "./components/useEffect/UseEffectBasics"
@@ -29,6 +30,7 @@ function App() {
       <MultipleReturnFetchData />
       <ShortCircuit/>
       <ShortCircuitUsualUseCase/>
+      <ToggleChallenge />
     </section>
   )
 }
