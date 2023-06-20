@@ -17,13 +17,13 @@ const ToggleChallenge = () => {
   return (
     <section>
       <h2>Toggle Challenge</h2>
-      {showAlert && <HelloUser />}
       <button
         // onClick={toggle}
         onClick={() => {setShowAlert(!showAlert)}}
-      >
+        >
         Show Alert
       </button>
+        {showAlert && <HelloUser />}
     </section>
   )
 }
