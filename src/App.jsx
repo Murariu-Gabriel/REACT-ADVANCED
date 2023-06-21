@@ -1,6 +1,7 @@
 import "./App.css"
 import MultipleReturnFetchData from "./components/conditionalRendering/MultipleReturnFetchData"
 import MultipleReturns from "./components/conditionalRendering/MultipleReturns"
+import ProjectStructure from "./components/conditionalRendering/ProjectStructure"
 import ShortCircuit from "./components/conditionalRendering/ShortCircuit"
 import ShortCircuitUsualUseCase from "./components/conditionalRendering/ShortCircuitUsualUseCase"
 import ToggleChallenge from "./components/conditionalRendering/ToggleChallenge"
@@ -29,10 +30,11 @@ function App() {
       <FetchData />
       <MultipleReturns />
       <MultipleReturnFetchData />
-      <ShortCircuit/>
-      <ShortCircuitUsualUseCase/>
+      <ShortCircuit />
+      <ShortCircuitUsualUseCase />
       <ToggleChallenge />
-      <UserChallenge/>
+      <UserChallenge />
+      <ProjectStructure />
     </section>
   )
 }
