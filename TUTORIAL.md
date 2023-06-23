@@ -1574,7 +1574,7 @@ const ControlledInputs = () => {
       <h4>controlled inputs</h4>
       <div className='form-row'>
         <label htmlFor='name' className='form-label'>
-          name
+          Name
         </label>
         <input type='text' className='form-input' id='name' />
       </div>

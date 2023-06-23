@@ -1,5 +1,24 @@
 import "./App.css"
-import {MultipleReturnFetchData, MultipleReturns, ProjectStructure, ShortCircuit, ShortCircuitUsualUseCase, ToggleChallenge, UserChallenge, FetchData, MultipleEffects, UseEffectBasics, ErrorExample, InfiniteStateLoop, SetFunctionGotcha, UseStateBasics, UseStateWithArray, UseStateWithObject, List} from "./index"
+import {
+  MultipleReturnFetchData,
+  MultipleReturns,
+  ProjectStructure,
+  ShortCircuit,
+  ShortCircuitUsualUseCase,
+  ToggleChallenge,
+  UserChallenge,
+  FetchData,
+  MultipleEffects,
+  UseEffectBasics,
+  ErrorExample,
+  InfiniteStateLoop,
+  SetFunctionGotcha,
+  UseStateBasics,
+  UseStateWithArray,
+  UseStateWithObject,
+  List,
+  ControlledInputs,
+} from "./index"
 
 function App() {
   return (
@@ -21,6 +40,7 @@ function App() {
       <UserChallenge />
       <ProjectStructure />
       <List/>
+      <ControlledInputs/>
     </section>
   )
 }

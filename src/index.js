@@ -15,21 +15,25 @@ import UseStateBasics from "./components/useState/UseStateBasics"
 import UseStateWithArray from "./components/useState/UseStateWithArray"
 import UseStateWithObject from "./components/useState/UseStateWithObject"
 import List from "./components/leverage-javascript/Setup-Challenge/List"
+import ControlledInputs from "./components/forms/ControlledInputs"
 
-export {MultipleReturnFetchData,
-MultipleReturns,
-ProjectStructure,
-ShortCircuit,
-ShortCircuitUsualUseCase,
-ToggleChallenge,
-UserChallenge,
-FetchData,
-MultipleEffects,
-UseEffectBasics,
-ErrorExample,
-InfiniteStateLoop,
-SetFunctionGotcha,
-UseStateBasics,
-UseStateWithArray,
-UseStateWithObject,
-List}
+export {
+  MultipleReturnFetchData,
+  MultipleReturns,
+  ProjectStructure,
+  ShortCircuit,
+  ShortCircuitUsualUseCase,
+  ToggleChallenge,
+  UserChallenge,
+  FetchData,
+  MultipleEffects,
+  UseEffectBasics,
+  ErrorExample,
+  InfiniteStateLoop,
+  SetFunctionGotcha,
+  UseStateBasics,
+  UseStateWithArray,
+  UseStateWithObject,
+  List,
+  ControlledInputs,
+}
