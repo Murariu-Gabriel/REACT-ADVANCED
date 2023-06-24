@@ -18,6 +18,7 @@ import {
   UseStateWithObject,
   List,
   ControlledInputs,
+  FormUserChallenge,
 } from "./index"
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
       <ProjectStructure />
       <List/>
       <ControlledInputs/>
+      <FormUserChallenge/>
     </section>
   )
 }

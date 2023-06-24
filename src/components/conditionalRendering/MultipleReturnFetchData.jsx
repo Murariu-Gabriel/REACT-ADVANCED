@@ -11,7 +11,7 @@ const MultipleReturnFetchData = () => {
     const getUser = async () => {
       try {
         const resp = await fetch(url)
-        console.log(resp)
+        // console.log(resp)
 
         if (!resp.ok) {
           setIsError(true)

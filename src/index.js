@@ -16,6 +16,7 @@ import UseStateWithArray from "./components/useState/UseStateWithArray"
 import UseStateWithObject from "./components/useState/UseStateWithObject"
 import List from "./components/leverage-javascript/Setup-Challenge/List"
 import ControlledInputs from "./components/forms/ControlledInputs"
+import FormUserChallenge from "./components/forms/FormUserChallenge"
 
 export {
   MultipleReturnFetchData,
@@ -36,4 +37,5 @@ export {
   UseStateWithObject,
   List,
   ControlledInputs,
+  FormUserChallenge,
 }

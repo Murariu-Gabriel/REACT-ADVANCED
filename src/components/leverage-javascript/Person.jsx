@@ -2,7 +2,7 @@ const Person = ({ name, nickName, images }, { key }) => {
 
     const img = images?.[0]?.small?.url || "this item does not exist"
 
-    console.log(img)
+    // console.log(img)
 
   return (
     <div key={key}>
