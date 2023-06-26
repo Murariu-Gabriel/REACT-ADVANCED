@@ -19,6 +19,7 @@ import {
   List,
   ControlledInputs,
   FormUserChallenge,
+  MultipleInputs,
 } from "./index"
 
 function App() {
@@ -40,9 +41,10 @@ function App() {
       <ToggleChallenge />
       <UserChallenge />
       <ProjectStructure />
-      <List/>
-      <ControlledInputs/>
-      <FormUserChallenge/>
+      <List />
+      <ControlledInputs />
+      <FormUserChallenge />
+      <MultipleInputs />
     </section>
   )
 }

@@ -28,7 +28,7 @@ const deletePerson = (id) => {
   return (
     <section>
       <form className="form" onSubmit={handleSubmit}>
-        <h4>Controlled inputs adding people</h4>
+        <h2>Controlled inputs adding people</h2>
         <div className="form-row">
           <label htmlFor="name" className="form-label">
             name

@@ -10,7 +10,7 @@ const ControlledInputs = () => {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <h4>controlled inputs</h4>
+      <h2>controlled inputs</h2>
       <div className="form-row">
         <label htmlFor="name" className="form-label">
           Name
