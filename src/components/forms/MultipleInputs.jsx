@@ -72,6 +72,3 @@ const MultipleInputs = () => {
 }
 export default MultipleInputs
 
-  const handleChange = (e) => {
-    setUser({ ...user, [e.target.name]: e.target.value })
-  }

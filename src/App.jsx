@@ -1,50 +1,21 @@
 import "./App.css"
+
 import {
-  MultipleReturnFetchData,
-  MultipleReturns,
-  ProjectStructure,
-  ShortCircuit,
-  ShortCircuitUsualUseCase,
-  ToggleChallenge,
-  UserChallenge,
-  FetchData,
-  MultipleEffects,
-  UseEffectBasics,
-  ErrorExample,
-  InfiniteStateLoop,
-  SetFunctionGotcha,
-  UseStateBasics,
-  UseStateWithArray,
-  UseStateWithObject,
+  UseStateMainComponent,
+  UseEffectMainComponent,
+  ConditionalRenderingMainComponent,
   List,
-  ControlledInputs,
-  FormUserChallenge,
-  MultipleInputs,
+  FormsMainComponent,
 } from "./index"
 
 function App() {
   return (
     <section>
-      <ErrorExample />
-      <UseStateBasics />
-      <UseStateWithArray />
-      <UseStateWithObject />
-      <SetFunctionGotcha />
-      <InfiniteStateLoop />
-      <UseEffectBasics />
-      <MultipleEffects />
-      <FetchData />
-      <MultipleReturns />
-      <MultipleReturnFetchData />
-      <ShortCircuit />
-      <ShortCircuitUsualUseCase />
-      <ToggleChallenge />
-      <UserChallenge />
-      <ProjectStructure />
-      <List />
-      <ControlledInputs />
-      <FormUserChallenge />
-      <MultipleInputs />
+      <UseStateMainComponent />
+      <UseEffectMainComponent />
+      <ConditionalRenderingMainComponent />
+      <List/>
+      <FormsMainComponent/>
     </section>
   )
 }
