@@ -6,17 +6,19 @@ import {
   ConditionalRenderingMainComponent,
   List,
   FormsMainComponent,
+  UseRefMain,
 } from "./index"
 
 function App() {
   return (
     <section>
-      <Utility/>
+      <Utility />
       <UseStateMainComponent />
       <UseEffectMainComponent />
       <ConditionalRenderingMainComponent />
-      <List/>
-      <FormsMainComponent/>
+      <List />
+      <FormsMainComponent />
+      <UseRefMain />
     </section>
   )
 }
@@ -32,11 +34,11 @@ const scroll = () => {
 }
 
   return (
-    <button class="go-down" id="scrollButton" onClick={scroll}>
+    <button className="go-down" id="scrollButton" onClick={scroll}>
       <svg
         stroke="currentColor"
         fill="currentColor"
-        stroke-width="0"
+        strokeWidth="0"
         viewBox="0 0 1024 1024"
         height="1em"
         width="1em"

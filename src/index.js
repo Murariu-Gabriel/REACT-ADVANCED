@@ -3,6 +3,7 @@ import UseEffectMainComponent from "./components/useEffect/UseEffectMainComponen
 import ConditionalRenderingMainComponent from "./components/conditionalRendering/ShortCircuitMainComponent";
 import List from "./components/leverage-javascript/Setup-Challenge/List"
 import FormsMainComponent from "./components/forms/FormsMainComponent";
+import UseRefMain from "./components/useRef/UseRefMain";
 
 export {
   UseStateMainComponent,
@@ -10,5 +11,6 @@ export {
   ConditionalRenderingMainComponent,
   List,
   FormsMainComponent,
+  UseRefMain,
 }
 
