@@ -4,6 +4,7 @@ import ConditionalRenderingMainComponent from "./components/conditionalRendering
 import List from "./components/leverage-javascript/Setup-Challenge/List"
 import FormsMainComponent from "./components/forms/FormsMainComponent";
 import UseRefMain from "./components/useRef/UseRefMain";
+import CustomHooksToggle from "./components/customHooks/CustomHooksToggle";
 
 export {
   UseStateMainComponent,
@@ -12,5 +13,6 @@ export {
   List,
   FormsMainComponent,
   UseRefMain,
+  CustomHooksToggle,
 }
 
