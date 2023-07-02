@@ -7,7 +7,7 @@ import {
   List,
   FormsMainComponent,
   UseRefMain,
-  CustomHooksToggle,
+  CustomHooksMain,
 } from "./index"
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <List />
       <FormsMainComponent />
       <UseRefMain />
-      <CustomHooksToggle/>
+      <CustomHooksMain />
     </section>
   )
 }
