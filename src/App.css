@@ -52,3 +52,21 @@ button{
 .user img {
   width: 100px;
 }
+
+.context-api-div{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.user-container{
+  width: 100%;
+}
+
+.context-api-nav{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 50px;
+  width: 100%;
+}

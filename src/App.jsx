@@ -8,6 +8,7 @@ import {
   FormsMainComponent,
   UseRefMain,
   CustomHooksMain,
+  ContextApiMain,
 } from "./index"
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <FormsMainComponent />
       <UseRefMain />
       <CustomHooksMain />
+      <ContextApiMain />
     </section>
   )
 }
