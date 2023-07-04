@@ -9,6 +9,7 @@ import {
   UseRefMain,
   CustomHooksMain,
   ContextApiMain,
+  UseReducerMain,
 } from "./index"
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <UseRefMain />
       <CustomHooksMain />
       <ContextApiMain />
+      <UseReducerMain />
     </section>
   )
 }

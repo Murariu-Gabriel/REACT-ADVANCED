@@ -6,6 +6,7 @@ import FormsMainComponent from "./components/forms/FormsMainComponent";
 import UseRefMain from "./components/useRef/UseRefMain";
 import CustomHooksMain from "./components/customHooks/CustomHooksMain";
 import ContextApiMain from "./components/contextApi/ContextApiMain";
+import UseReducerMain from "./components/useReducer/UseReducerMain";
 
 export {
   UseStateMainComponent,
@@ -16,5 +17,6 @@ export {
   UseRefMain,
   CustomHooksMain,
   ContextApiMain,
+  UseReducerMain,
 }
 
