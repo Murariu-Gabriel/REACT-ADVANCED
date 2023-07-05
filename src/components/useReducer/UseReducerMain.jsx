@@ -1,9 +1,11 @@
-import ReducerBasics from "./ReducerBasics"
+import WithoutUseReduce from "./WithoutUseReduce"
+import UseReduceBasics from "./UseReduceBasics"
 
 const UseReducerMain = () => {
   return (
     <section>
-        <ReducerBasics/>
+      <WithoutUseReduce />
+      <UseReduceBasics />
     </section>
   )
 }

@@ -1,6 +1,7 @@
 import React from "react"
 import { data } from "../../data"
-const ReducerBasics = () => {
+
+const WithoutUseReduce = () => {
   const [people, setPeople] = React.useState(data)
 
   const removeItem = (id) => {
@@ -12,10 +13,9 @@ const ReducerBasics = () => {
     setPeople(data)
   }
 
-
   return (
     <div>
-      <h2>Use Reducer</h2>
+      <h2>With no Use Reducer</h2>
       {people.map((person) => {
         const { id, name } = person
         return (
@@ -43,4 +43,4 @@ const ReducerBasics = () => {
   )
 }
 
-export default ReducerBasics
+export default WithoutUseReduce
