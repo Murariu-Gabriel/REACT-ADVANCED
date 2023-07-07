@@ -67,6 +67,19 @@ const UseReduceBasics = () => {
           clear items
         </button>
       )}
+
+      <p> 
+        UseReducer allows us to manage more complex states and state transitions in components. It is an alternative to using the useState hook when you need more control over how state changes.
+        <br />
+
+        UseReducer handles everything outside the component
+
+        <br />
+        We can have better performance with useReducer if we have more complex logic that requires multiple state updates, useReducer can provide better performance by avoiding multiple re-renders caused by multiple useState calls.
+        <br />
+
+        With use reducer you can have more control over the state transitions and reliably rely on the previous state inside the reducer to calculate a new state. With useState you need to use the functional form of state setter to access the previous state and this can lead to potential issues. 
+      </p>
     </div>
   )
 }
