@@ -1,5 +1,5 @@
 import { useReducer } from "react"
-import { CLEAR_LIST, REMOVE_ITEM, RESET_LIST } from "./actions"
+
 import  reducer  from "./reducer"
 import { data } from "../../data"
 

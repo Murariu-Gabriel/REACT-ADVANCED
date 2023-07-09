@@ -10,6 +10,7 @@ import {
   CustomHooksMain,
   ContextApiMain,
   UseReducerMain,
+  PerformanceMain,
 } from "./index"
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <CustomHooksMain />
       <ContextApiMain />
       <UseReducerMain />
+      <PerformanceMain />
     </section>
   )
 }
