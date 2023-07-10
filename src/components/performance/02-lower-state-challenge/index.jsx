@@ -1,46 +1,23 @@
-import { useState } from 'react';
-import { data } from '../../../data';
-import List from './List';
-const LowerStateChallenge = () => {
-  const [people, setPeople] = useState(data);
-  const [name, setName] = useState('');
+import { data } from "../../../data"
+import { useState } from "react"
+import List from "./List"
+import Form from "./Form"
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!name) {
-      alert('Please Provide Name Value');
-      return;
-    }
-    addPerson();
-    setName('');
-  };
-  const addPerson = () => {
-    const fakeId = Date.now();
-    const newPerson = { id: fakeId, name };
-    setPeople([...people, newPerson]);
-  };
+const LowerStateChallenge = () => {
+  const [people, setPeople] = useState(data)
+
+  const addPerson = (name) => {
+    const fakeId = Date.now()
+    const newPerson = { id: fakeId, name }
+    setPeople([...people, newPerson])
+  }
+
   return (
     <section>
-      <form className='form' onSubmit={handleSubmit}>
-        <div className='form-row'>
-          <label htmlFor='name' className='form-label'>
-            name
-          </label>
-          <input
-            type='text'
-            name='name'
-            id='name'
-            className='form-input'
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-        <button className='btn btn-block' type='submit'>
-          submit
-        </button>
-      </form>
+      <Form addPerson={addPerson} />
       <List people={people} />
+      <p>So here we had people state and name state in the same component. Inside the from we have a onChange event listener that listens for the value introduced in the input each time we type we are changing the name state meaning we re-render at every key press. The solution to make each component render separately is to break them in multiple components each having it s state so it doesn't trigger re-render for elements that don' t need it</p>
     </section>
-  );
-};
-export default LowerStateChallenge;
+  )
+}
+export default LowerStateChallenge
