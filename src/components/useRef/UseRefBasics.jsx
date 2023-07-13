@@ -10,10 +10,10 @@ const UseRefBasics = () => {
   
   useEffect(() => {
     refContainer.current.focus()
-    console.log(refContainer, "after initial render")
+    // console.log(refContainer, "after initial render")
   })
   
-  console.log(refContainer, "during initial render")
+  // console.log(refContainer, "during initial render")
 
   const handleSubmit = (e) => {
     e.preventDefault()

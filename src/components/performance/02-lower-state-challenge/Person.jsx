@@ -1,5 +1,5 @@
 const Person = ({ name, deletePerson, id }) => {
-  console.log(id)
+  // console.log(id)
   return (
     <div key={id}>
       <h4>{name}</h4>
