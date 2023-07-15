@@ -21,21 +21,35 @@ const FetchData = () => {
   return (
     <section>
       <h3>UseCallback Common use</h3>
-      <ul className='fetched-Users'>
+      <ul className="fetched-Users">
         {users.map((user) => {
-          const { id, login, avatar_url, html_url } = user;
+          const { id, login, avatar_url, html_url } = user
           return (
             <li key={id} className="user">
-              <img src={avatar_url} alt={login}  />
+              <img src={avatar_url} alt={login} />
               <div>
                 <h5>{login}</h5>
                 <a href={html_url}>profile</a>
               </div>
             </li>
-          );
+          )
         })}
       </ul>
+
+        <br />
+
+      <h2>UseMemo</h2>
+
+      <p>
+        Use memo is a hook that allows you to memoise the RESULt of a function call to avoid unnecessary recalculations when inputs don t change. It is used for optimizing expansive calculations or preventing excessive re-rendering of components.
+
+        Bonus: A difference between useMemo and useCallback is
+        <br />
+        - that useMemo is used to memoise a RESULT
+        <br />
+        - useCallBack is used to memoise a CALLBACK FUNCTION 
+      </p>
     </section>
-  );
+  )
 };
 export default FetchData;
