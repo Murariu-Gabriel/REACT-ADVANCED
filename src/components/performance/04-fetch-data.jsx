@@ -1,8 +1,14 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 const url = 'https://api.github.com/users';
+import slowFunction from './slowFunction';
 
 const FetchData = () => {
   const [users, setUsers] = useState([]);
+  const [count, setCount] = useState(0)
+
+  const value = useMemo( () => slowFunction(), [])
+
+  console.log(value)
 
   const fetchData = useCallback(async () => {
     try {
@@ -17,6 +23,8 @@ const FetchData = () => {
   useEffect(() => {
     fetchData();
   }, [fetchData]);
+
+
 
   return (
     <section>
@@ -41,7 +49,7 @@ const FetchData = () => {
       <h2>UseMemo</h2>
 
       <p>
-        Use memo is a hook that allows you to memoise the RESULt of a function call to avoid unnecessary recalculations when inputs don t change. It is used for optimizing expansive calculations or preventing excessive re-rendering of components.
+        Use memo is a hook that allows you to memoise the RESULT of a function call to avoid unnecessary recalculations when inputs don t change. It is used for optimizing expansive calculations or preventing excessive re-rendering of components.
 
         Bonus: A difference between useMemo and useCallback is
         <br />
@@ -49,6 +57,10 @@ const FetchData = () => {
         <br />
         - useCallBack is used to memoise a CALLBACK FUNCTION 
       </p>
+
+
+      <p>This count has the purpose of showing us the fact that the slow function that we imported is in fact slowing everything. </p>
+      <button onClick={() => setCount(count + 1)}> Count: {count}</button>
     </section>
   )
 };
