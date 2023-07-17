@@ -24,7 +24,7 @@ const FetchData = () => {
     fetchData();
   }, [fetchData]);
 
-
+console.log("dog")
 
   return (
     <section>

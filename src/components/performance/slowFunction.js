@@ -8,4 +8,6 @@ const slowFunction = () => {
   return value
 }
 
+
+
 export default slowFunction
